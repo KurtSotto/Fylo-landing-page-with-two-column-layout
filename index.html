@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+<body>
+
+  <!-- header -->
+  <header>
+    <div class="header-img">
+      <img src="./images/logo.svg" alt="fylo logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main>
+    
+    <!-- section1 -->
+    <section class="section-1">
+      <div class="section-1-img">
+        <img src="./images/illustration-1.svg" alt="illustration-1">
+      </div>
+      <div class="text-container">
+        <div>
+          <h2>All your files in one secure location, accessible anywhere.</h2>
+        </div>
+        <div>
+          <p>Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.
+          </p>
+        </div>
+        <form class="input-and-button-container">
+          <input type="email" name="email" required placeholder="Enter your email...">
+          <button type="submit">Get Started</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- section2 --> 
+    <section class="section-2">
+      <div class="img-container"></div>
+      <div class="text-and-img-container-sec-2">
+        <div class="container">
+          <div class="one">
+            <img src="./images/illustration-2.svg" alt="">
+          </div>
+          <div class="two">
+            <div>
+              <h2>Stay productive, wherever you are</h2>
+            </div>
+            <div>
+              <p>Never let location be an issue when accessing your files. Fylo has you covered for all your file storage needs.</p>
+              <p>Securely share files and folders with friends, family and colleagues for 
+                live collaboration. No email attachments required!</p>
+            </div>
+            <div class="see-how-fylo-works-container">
+              <p>See how Fylo works</p>
+              <img src="./images/icon-arrow.svg" alt="icon-arrow">
+            </div>
+          </div>
+          <div class="three">
+            <div class="testimonial">
+              <img id="icon-quote" src="./images/icon-quotes.svg" alt="icon-quotes">
+              <div>
+                <div class="testimonial-text">
+                  <p>Fylo has improved our team productivity by an order of magnitude. Since 
+                    making the switch our team has become a well-oiled collaboration machine.</p>
+                </div>
+                <div class="testimonial-profile">
+                  <div>
+                    <img src="./images/avatar-testimonial.jpg" alt="avatar-testimonial">
+                  </div>
+                  <div>
+                    <p id="testimonial-name">Kyle Burton</p>
+                    <p id="info">Founder & CEO, Huddle</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section3 -->
+    <section class="section-3">
+      <div class="sec-3-container">
+        <div class="sec-3-text-div">
+          <div>
+            <h2>Get early access today</h2>
+          </div>
+          <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+            If you have any questions, our support team would be happy to help you.</p>
+        </div>
+        <form class="sec-3-input-and-button">
+          <input type="email" name="email" placeholder="email@example.com" required>
+          <button type="submit">Get Started For Free</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div>
+      <div class="footer-img-container"> <img src="./images/logo footer.png" alt="logo footer"> </div>
+      <div class="footer-infos">
+        <div class="gap">
+          <div class="icons">
+            <div> <img src="./images/icon-phone.svg" alt=""> </div>
+            <div> <p>Phone: +1-543-123-4567</p> </div>
+          </div>
+          <div class="icons">
+            <div> <img src="./images/icon-email.svg" alt=""> </div>
+            <div> <p>example@fylo.com</p> </div>
+          </div>
+        </div>
+        <div class="gap info">
+          <a href="#"><p>About Us</p></a>
+          <a href="#"><p>Jobs</p></a>
+          <a href="#"><p>Press</p></a>
+          <a href="#"><p>Blog</p></a>
+        </div>
+        <div class="gap info">
+          <a href="#"><p>Contact Us</p></a>
+          <a href="#"><p>Terms</p></a>
+          <a href="#"><p>Privacy</p></a>
+        </div>
+        <div class="icon-container">
+          <div class="social-medias">
+            <div class="fb">
+                <img src="./images/facebook-f.svg" alt="facebook icon">
+            </div>
+            <div class="twitter">
+                <img src="./images/twitter.svg" alt="twitter icon">
+            </div>
+            <div class="instagram">
+                <img src="./images/logo-instagram.svg" alt="instagram icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="coder">
+      <p>Challenge by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/KurtSotto">Kurt Cagulang</a>.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
